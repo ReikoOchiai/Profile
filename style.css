@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Biryani:wght@200&family=Faustina:wght@400;600&family=Genos:wght@300;400&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Oleo+Script+Swash+Caps:wght@400;700&family=Raleway:wght@100;300&family=Shizuru&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f3ee;
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 700px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.white-card {
+  background: white;
+  padding: 20px 10px;
+  margin: 20px 0px;
+}
+
+@media (max-width: 960px){
+  .container{
+    width: 700px
+  }
+}
+
+@media (max-width: 750px){
+  .container{
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px){
+  .container{
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px){
+  .container{
+    width: 200px;
+  }
+}
+
+h1 {
+  line-height: 1.5rem;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: rgb(98, 95, 95);
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5rem;
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-1 {
+  border: none;
+  color: #000;
+  letter-spacing: 0.1rem;
+}
+
+.btn-1:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: 5;
+  box-shadow:
+  -7px -7px 20px 0px rgba(251, 209, 209, 0.6),
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+
+.btn-1:hover {
+  color: #000;
+}
+
+.btn-1:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+
+.btn-1:active {
+  top: 2px;
+}
+
+#button-gold {
+  box-shadow: -7px -7px 20px 0px rgba(220, 238, 107, 0.6),
+    -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+
+
+.fab {
+  color: #000000f9;
+  font-size: 62px;
+  padding: 0px 20px;
+}
+
+.fab:hover {
+  color: #6bc0a9;
+  transition: all 0.5s ease;
+}
